@@ -1,0 +1,33 @@
+@import url("./vencord-simplicity-properties.css");
+
+@container body style(--hide-app-launcher: on) {
+
+    /* Hide channel app launcher */
+    div[class*="-buttons"]>div[class*="-buttonContainer"]:has(div[aria-label="Apps"]) {
+        display: none;
+    }
+}
+
+@container body style(--hide-nitro-gift: on) {
+
+    /* Hide Nitro gift button */
+    div[class*="-buttons"]>div[class*="-container"]:has(div[aria-label="Send a gift"]) {
+        display: none;
+    }
+}
+
+@container body style(--hide-gif: on) {
+
+    /* Hide GIF picker button */
+    button[aria-label="Open GIF picker"] {
+        display: none;
+    }
+}
+
+@container body style(--hide-sticker: on) {
+
+    /* Hide sticker picker button */
+    div[class*="expression-picker-chat-input-button buttonContainer__"]:has(div[aria-label="Open sticker picker"]) {
+        display: none;
+    }
+}
