@@ -38,21 +38,21 @@
 
 /* ==== DM List Properties ==== */
 
-/* Nitro Home Button */
+/* Nitro Home */
 @property --hide-nitro-home {
     syntax: 'off | on';
     inherits: false;
     initial-value: on;
 }
 
-/* Shop Button */
+/* Shop */
 @property --hide-shop {
     syntax: 'off | on';
     inherits: false;
     initial-value: on;
 }
 
-/* Quests Button */
+/* Quests */
 @property --hide-quests {
     syntax: 'off | on';
     inherits: false;
@@ -62,28 +62,35 @@
 
 /* ==== Channel Toolbar Properties ==== */
 
-/* Profile Button */
+/* Profile */
 @property --hide-profile {
     syntax: 'off | on';
     inherits: false;
     initial-value: on;
 }
 
-/* Start Video Call Button */
+/* Start Video Call */
 @property --hide-video-call {
     syntax: 'off | on';
     inherits: false;
     initial-value: on;
 }
 
-/* AKA/Alias Section */
+/* Help */
+@property --hide-help {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+/* AKA/Alias */
 @property --hide-aka {
     syntax: 'off | on';
     inherits: false;
     initial-value: on;
 }
 
-/* Checkpoint Button */
+/* Checkpoint */
 @property --hide-checkpoint {
     syntax: 'off | on';
     inherits: false;
@@ -93,14 +100,14 @@
 
 /* ====  Message Context Menu Properties ==== */
 
-/* Apps Sub-menu */
+/* Apps Sub-Menu */
 @property --hide-apps-menu {
     syntax: 'off | on';
     inherits: false;
     initial-value: on;
 }
 
-/* Text-To-Speech Button */
+/* Text-To-Speech */
 @property --hide-tts {
     syntax: 'off | on';
     inherits: false;
@@ -114,7 +121,7 @@
     initial-value: on;
 }
 
-/* Report Button */
+/* Report */
 @property --hide-report {
     syntax: 'off | on';
     inherits: false;
@@ -124,7 +131,7 @@
 
 /* ==== Misc ==== */
 
-/* Ring to Voice Button */
+/* Ring to Voice */
 @property --hide-ring-to-voice {
     syntax: 'off | on';
     inherits: false;

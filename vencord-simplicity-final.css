@@ -1,4 +1,154 @@
-@import url("./vencord-simplicity-properties.css");
+/* ===== vencord-simplicity-properties.css ===== */
+
+/* ==== Message Input Properties ==== */
+
+/* App Launcher */
+@property --hide-app-launcher {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+/* Nitro Gift */
+@property --hide-nitro-gift {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+/* Gif Picker */
+@property --hide-gif {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+/* Sticker Picker */
+@property --hide-sticker {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+/* Emoji Picker */
+@property --hide-emoji {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+
+/* ==== DM List Properties ==== */
+
+/* Nitro Home */
+@property --hide-nitro-home {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+/* Shop */
+@property --hide-shop {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+/* Quests */
+@property --hide-quests {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+
+/* ==== Channel Toolbar Properties ==== */
+
+/* Profile */
+@property --hide-profile {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+/* Start Video Call */
+@property --hide-video-call {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+/* Help */
+@property --hide-help {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+/* AKA/Alias */
+@property --hide-aka {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+/* Checkpoint */
+@property --hide-checkpoint {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+
+/* ====  Message Context Menu Properties ==== */
+
+/* Apps Sub-Menu */
+@property --hide-apps-menu {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+/* Text-To-Speech */
+@property --hide-tts {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+/* Pre-shown Quick Reactions */
+@property --hide-quick-reactions {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+/* Report */
+@property --hide-report {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+
+/* ==== Misc ==== */
+
+/* Ring to Voice */
+@property --hide-ring-to-voice {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+/* Message Toolbar */
+@property --hide-message-toolbar {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: off;
+}
+
+/* ===== vencord-simplicity.css ===== */
+
 
 
 /* ==== Message Input ==== */

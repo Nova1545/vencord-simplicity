@@ -5,7 +5,9 @@ imports=$(cat "$orgFile" | grep -Eo "@import.*;")
 files=$(echo "$imports" | grep -Po "(?<=\")(.*)(?=\")")
 
 
-rm "$buildOutput"
+if [ -f "$buildOutput" ]; then
+    rm "$buildOutput"
+fi
 touch "$buildOutput"
 
 # Append all imported CSS files
