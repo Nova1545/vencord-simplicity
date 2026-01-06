@@ -3,7 +3,7 @@
 
 /* ==== Message Input ==== */
 
-@container root style(--hide-app-launcher: on) {
+@container body style(--hide-app-launcher: on) {
 
     /* App Launcher */
     div[class*="-buttons"]>div[class*="-buttonContainer"]:has(div[aria-label="Apps"]) {
@@ -11,7 +11,7 @@
     }
 }
 
-@container root style(--hide-nitro-gift: on) {
+@container body style(--hide-nitro-gift: on) {
 
     /* Nitro Gift */
     div[class*="-buttons"]>div[class*="-container"]:has(div[aria-label="Send a gift"]) {
@@ -19,7 +19,7 @@
     }
 }
 
-@container root style(--hide-gif: on) {
+@container body style(--hide-gif: on) {
 
     /* GIF Picker */
     div[class*="-buttons"]>div[class*="-buttonContainer"]:has(div[aria-label="Open GIF picker"]) {
@@ -27,7 +27,7 @@
     }
 }
 
-@container root style(--hide-sticker: on) {
+@container body style(--hide-sticker: on) {
 
     /* Sticker Picker */
     div[class*="-buttons"]>div[class*="-buttonContainer"]:has(div[aria-label="Open sticker picker"]) {
@@ -35,7 +35,7 @@
     }
 }
 
-@container root style(--hide-emoji: on) {
+@container body style(--hide-emoji: on) {
 
     /* Emoji Picker */
     div[class*="-buttons"]>div[class*="-buttonContainer"]:has(div[aria-label="Add Emoji"]) {
@@ -45,7 +45,7 @@
 
 /* ==== DM List ==== */
 
-@container root style(--hide-nitro-home: on) {
+@container body style(--hide-nitro-home: on) {
 
     /* Nitro Home */
     ul[aria-label="Direct Messages"]>div:has(> li > div > a[href="/store"]) {
@@ -53,7 +53,7 @@
     }
 }
 
-@container root style(--hide-shop: on) {
+@container body style(--hide-shop: on) {
 
     /* Shop */
     ul[aria-label="Direct Messages"]>li:has(> div > a[href="/shop"]) {
@@ -61,7 +61,7 @@
     }
 }
 
-@container root style(--hide-quests: on) {
+@container body style(--hide-quests: on) {
 
     /* Quests */
     ul[aria-label="Direct Messages"]>div:has(> li > div > a[href="/quest-home"]) {
@@ -72,7 +72,7 @@
 
 /* ==== Channel Toolbar ==== */
 
-@container root style(--hide-profile: on) {
+@container body style(--hide-profile: on) {
 
     /* Profile */
     div[aria-label="Show User Profile"] {
@@ -85,7 +85,7 @@
     }
 }
 
-@container root style(--hide-video-call: on) {
+@container body style(--hide-video-call: on) {
 
     /* Start Video Call */
     div[aria-label="Start Video Call"] {
@@ -93,7 +93,7 @@
     }
 }
 
-@container root style(--hide-help: on) {
+@container body style(--hide-help: on) {
 
     /* Help */
     div[aria-label="Help"] {
@@ -101,7 +101,7 @@
     }
 }
 
-@container root style(--hide-aka: on) {
+@container body style(--hide-aka: on) {
 
     /* AKA/Alias */
     svg[class*="-divider"] {
@@ -117,7 +117,7 @@
     }
 }
 
-@container root style(--hide-checkpoint: on) {
+@container body style(--hide-checkpoint: on) {
 
     /* Checkpoint */
     div[aria-label="Checkpoint"] {
@@ -132,7 +132,7 @@
 
 /* ====  Message Context Menu ==== */
 
-@container root style(--hide-apps-menu: on) {
+@container body style(--hide-apps-menu: on) {
 
     /* Apps Sub-Menu */
     #message-apps {
@@ -140,7 +140,7 @@
     }
 }
 
-@container root style(--hide-tts: on) {
+@container body style(--hide-tts: on) {
 
     /* Text-To-Speech */
     #message-tts {
@@ -148,7 +148,7 @@
     }
 }
 
-@container root style(--hide-quick-reactions: on) {
+@container body style(--hide-quick-reactions: on) {
 
     /* Pre-shown Quick Reactions */
     div[class*="scroller"]>div[class*="wrapper"][role="group"] {
@@ -156,7 +156,7 @@
     }
 }
 
-@container root style(--hide-report: on) {
+@container body style(--hide-report: on) {
 
     /* Report */
     div[class*="scroller"]>div[role="group"]>div[class*="item"][id="message-report"] {
@@ -173,7 +173,7 @@
 
 /* ==== Misc ==== */
 
-@container root style(--hide-ring-to-voice: on) {
+@container body style(--hide-ring-to-voice: on) {
 
     /* Ring to Voice */
     div[class*="chatHeaderBar_"]:has(div[class*="chatHeaderBarInfo_"]) {
@@ -182,7 +182,7 @@
     }
 }
 
-@container root style(--hide-message-toolbar: on) {
+@container body style(--hide-message-toolbar: on) {
 
     /* Message Toolbar */
     div[class*="buttonContainer"]:has(div[aria-label="Message Actions"]) {
