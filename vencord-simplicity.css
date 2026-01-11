@@ -14,7 +14,7 @@
 @container body style(--hide-nitro-gift: on) {
 
     /* Nitro Gift */
-    div[class*="-buttons"]>div[class*="-container"]:has(div[aria-label="Send a gift"]) {
+    div[class*="-sansAttachButton"]>div[class*="-button"]>div[aria-label="Send a gift"] {
         display: none;
     }
 }
