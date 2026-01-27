@@ -156,7 +156,7 @@
 @container body style(--hide-app-launcher: on) {
 
     /* App Launcher */
-    div[class*="-buttons"]>div[class*="-buttonContainer"]:has(div[aria-label="Apps"]) {
+    div[class*="buttons"]>div[class*="buttonContainer"]:has(div[aria-label="Apps"]) {
         display: none;
     }
 }
@@ -164,7 +164,7 @@
 @container body style(--hide-nitro-gift: on) {
 
     /* Nitro Gift */
-    div[class*="-sansAttachButton"]>div[class*="-button"]>div[aria-label="Send a gift"] {
+    div[class*="buttons"]>div[class*="button"][aria-label="Send a gift"] {
         display: none;
     }
 }
@@ -172,7 +172,7 @@
 @container body style(--hide-gif: on) {
 
     /* GIF Picker */
-    div[class*="-buttons"]>div[class*="-buttonContainer"]:has(div[aria-label="Open GIF picker"]) {
+    div[class*="buttons"]>div[class*="buttonContainer"]:has(div[aria-label="Open GIF picker"]) {
         display: none;
     }
 }
@@ -180,7 +180,7 @@
 @container body style(--hide-sticker: on) {
 
     /* Sticker Picker */
-    div[class*="-buttons"]>div[class*="-buttonContainer"]:has(div[aria-label="Open sticker picker"]) {
+    div[class*="-buttons"]>div[class*="buttonContainer"]:has(div[aria-label="Open sticker picker"]) {
         display: none;
     }
 }
@@ -188,7 +188,7 @@
 @container body style(--hide-emoji: on) {
 
     /* Emoji Picker */
-    div[class*="-buttons"]>div[class*="-buttonContainer"]:has(div[aria-label="Add Emoji"]) {
+    div[class*="buttons"]>div[class*="buttonContainer"]:has(div[aria-label="Add Emoji"]) {
         display: none;
     }
 }
